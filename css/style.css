@@ -74,14 +74,14 @@ header {
 
 .dropbtn
 {
-  background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png') no-repeat 15% center;
+  background: url('../img/Russia-Flag-icon.png') no-repeat 15% center;
   padding-left: 25px;
   width: 54px;
   height: 74px;
 }
 
 .dropbtn::after {
-    background: rgba(0, 0, 0, 0) url("https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-16.png") no-repeat scroll center center;
+    background: rgba(0, 0, 0, 0) url("../img/ic_keyboard_arrow_down_48px-16.png") no-repeat scroll center center;
     content: "";
     height: 16px;
     position: absolute;
@@ -96,7 +96,7 @@ header {
 }
 .dropdown-content a:last-child
 {
-  background: url('http://www.miru-mir.info/images/en.gif') no-repeat 10% center;
+  background: url('../img/en.gif') no-repeat 10% center;
 }
 
 /* Links inside the dropdown */
@@ -555,24 +555,24 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-button-prev {
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABt0UjBAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAAAuUAAALlARv+XnsAAABUSURBVEjH7dYxCgAgEAPB8weX/39WFBtBbsFSY2sYyzXicDLq0wQDKQGQAKiJAZTEvC+IRgPBYAEyYOB1AAf4hAkTXxB5nySOGmaRw4pp5rhv34MOQwscJ7/MrxQAAAAASUVORK5CYII=);
+    background-image: url("../img/arrou-left.png");
     border-radius: 0 50px 50px 0; left: 0;
     left: 0;
 }
 
 #my-slider .ism-button-next {
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABt0UjBAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAAAuUAAALlARv+XnsAAABYSURBVEjH7dYxDoAwDEPR5Ab1/S8LVEgsyL8SG3XWWK/dnKpnumA0/L4lAOSJE/DEtXfEBBxxBwYFBH8IEWJbggL4RIAAPwFWC+VDqXEtYrFyNWO5v58HB4q9HAkl7KTYAAAAAElFTkSuQmCC);
+    background-image: url("../img/arrou-right.png");
     border-radius: 50px 0 0 50px; right: 0;
     right: 0;
 }
 
 #my-slider .ism-pause-button {
     width: 50px; height: 50px; background-size: 16px 16px; top: 50%; margin-top: -25px; border-radius: 25px; margin-left: -25px;
-    color: #000; background-color: rgba(255, 255, 255, 0.3); background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAbklEQVR42u3SsQ0AIAgAQXD/nXUCYoWF3Jc0kAsRml0W8/1oz632O9b0DwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg/dEBGMMCeFN/0bIAAAAASUVORK5CYII=);
+    color: #000; background-color: rgba(255, 255, 255, 0.3); background-image: url("../img/pause.png");
 }
 
 #my-slider .ism-pause-button.ism-play {
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAs6AAALOgFkf1cNAAACU0lEQVR42uXbTYhNcRjH8Y+XIiERpbynlGIhZWVl4WVjkiRZoJCwUHYsFM0sKFayVFYWdhZWMxubUUOjkDQLL3kZTEZIiWNxz7+mG3XHPe495zy/+m1PPd/z/J//eZ7//zB5HcUigXUfr3A8KoBBZLkHsTAygAzfcQqzowJIfoaNkQEkX8GCyAAyjOBIZADJ/ZgXGUCGrziJmVEBJD/FusgAknurXiTbBZCy4UBkAMm3MSsygAyfcQzTowJIfoI1kQEkn8X8yAAyPMLeyACSb2JGZAAZxnA4MoAMv/JlsaroYKZWZOeZgrV5l3m62w1WNzKg2Q/RExlA8vVufECVCUCGdzgYGUCGnxjGsroWwVbiWI/nGucVc6NlQLMfYGtkAMlXMS0ygAwvsT8ygFQkh7C4rkWwlSK5IS+ShzAnWgY0ewjbImXARGUaJ9qjEQGM4wxWaNxzqM4gsgD151Om99GK4Iu8V9jSHHyEItj3p61vouq4BFKH2JO/rBDNUNI3nMPSVoKvWwbcxe787Ydqh9OVvc2TDb4ORfAylrQTTFWXwAfswUARTUKV9APn8yI3UMQDq5QB97ATb4tuE8uu1xqHIZuKDr4KRfAalpftjXQCwBi2lzUl/zeAPh28eF2mIjiMHfmaL7WKzoA3+ZCiMioSwA2srNpXWBEAPmFXVZuPdgFcUvEb5P8K4HEZ9/ROABjFhTpNXSYD4BZW12zq1BKAcexTU7Xy01St/yz9G4CROqZ7KwA+4qJAx2wTAdxRkSvuRU9mvujw1bQy6YTGTK4W+g0tXf8CyyZD9AAAAABJRU5ErkJggg==);
+    background-image: url("../img/play.png");
 }
 
 #my-slider .ism-button:hover {
