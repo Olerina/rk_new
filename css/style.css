@@ -1926,5 +1926,15 @@ footer {
   #my-slider-ism-badge {
     width: 100%;
   }
+  .about-link {
+    justify-content: space-around;
+  }
+  .main-news {
+    flex-direction: column;
+  }
+  .news {
+    width: 100%;
+    margin-top: 20px;
+  }
 
 }
