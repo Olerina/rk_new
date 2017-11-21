@@ -1926,6 +1926,9 @@ footer {
   #my-slider-ism-badge {
     width: 100%;
   }
+  .about-us {
+    margin-top: 20px;
+  }
   .about-link {
     justify-content: space-around;
   }
