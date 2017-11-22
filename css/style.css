@@ -1,5 +1,5 @@
 html, body {
-  min-width: 1280px;
+  min-width: 1256px;
   margin: 0;
   padding: 0;
   font-family: "Cuprum", "Arial", sans-serif;
@@ -10,7 +10,7 @@ html, body {
 }
 
 .container {
-  width: 1260px;
+  width: 1236px;
   padding: 0 10px;
   margin: 0 auto;
 }
@@ -20,7 +20,7 @@ a {
   color: inherit;
 }
 
-header, footer {
+header {
   background: #005292;
   height: 84px;
 }
@@ -1732,6 +1732,8 @@ p.ism-badge a.ism-link:hover {
 
 footer {
   margin-top: 20px;
+  background: #005292;
+  min-height: 84px;
 }
 
 .main-footer {
@@ -1843,8 +1845,12 @@ footer {
 .modal-main-menu-item {
   font-size: 36px;
   line-height: 42px;
+  margin-bottom: 10px;
+  display: block;
 }
-
+.modal-sub-nav li {
+  margin-bottom: 10px;
+}
 .modal-main-menu-item:hover, .modal-sub-nav li:hover {
   color: #078bf2;
 }
@@ -1890,17 +1896,12 @@ footer {
 
 @media (max-width: 1024px) {
   html, body {
-    min-width: 640px;
-}
-.container {
-  width: 100%;
-  padding: 0 10px;
-  margin: 0 auto;
-}
-
-  .main-nav,
-  .search-form,
-  .map-block {
+    min-width: 616px;
+  }
+  .container {
+    width: calc(100% - 20px);
+  }
+  .main-nav, .search-form, .map-block {
     display: none;
   }
   .head {
@@ -1922,7 +1923,6 @@ footer {
     width: 100%;
     height: 368px;
   }
-
   #my-slider-ism-badge {
     width: 100%;
   }
@@ -1939,5 +1939,18 @@ footer {
     width: 100%;
     margin-top: 20px;
   }
-
+  .main-footer {
+    flex-wrap: wrap;
+    padding-top: 0;
+  }
+  .main-footer div {
+    margin-top: 20px;
+  }
+  .modal-nav {
+    flex-wrap: wrap;
+  }
+  .modal-main-menu-item {
+    font-size: 24px;
+    line-height: 36px;
+  }
 }

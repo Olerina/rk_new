@@ -1027,11 +1027,13 @@ link.addEventListener("click", function(event) {
   event.preventDefault();
   popup.classList.add("modal-content-show");
   main.classList.add("main-close");
+  link.classList.add("main-close");
 });
 close.addEventListener("click", function(event) {
   event.preventDefault();
   popup.classList.remove("modal-content-show");
   main.classList.remove("main-close");
+  link.classList.remove("main-close");
 });
 window.addEventListener("keydown", function(event) {
   if (event.keyCode === 27) {
