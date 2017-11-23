@@ -1022,18 +1022,21 @@
 var link = document.querySelector(".site-map");
 var popup = document.querySelector(".modal-menu");
 var main = document.querySelector(".main-show");
+var nav = document.querySelector(".main-nav");
 var close = popup.querySelector(".modal-content-close");
 link.addEventListener("click", function(event) {
   event.preventDefault();
   popup.classList.add("modal-content-show");
   main.classList.add("main-close");
   link.classList.add("main-close");
+  nav.classList.add("main-nav-modal");
 });
 close.addEventListener("click", function(event) {
   event.preventDefault();
   popup.classList.remove("modal-content-show");
   main.classList.remove("main-close");
   link.classList.remove("main-close");
+  nav.classList.remove("main-nav-modal");
 });
 window.addEventListener("keydown", function(event) {
   if (event.keyCode === 27) {
