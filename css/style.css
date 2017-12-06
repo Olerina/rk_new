@@ -209,8 +209,9 @@ header {
 
 .sub-nav li:hover {
   background: #afc9f7;
-  border-left: 1px solid ##ffbf00;
-  border-bottom: 1px solid ##ffbf00;
+  border-left: 1px solid #ffbf00;
+  border-bottom: 1px solid #ffbf00;
+  border-radius: 5px;
 }
 
 .sub-nav li a {
