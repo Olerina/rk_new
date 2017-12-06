@@ -180,7 +180,7 @@ header {
 .main-nav li ul {
   display: none;
   color: #000000;
-  background-color: #ffffff;
+  background-color: #edf2f9;
   padding-left: 30px;
   padding-right: 10px;
   position: absolute;
@@ -208,7 +208,9 @@ header {
 }
 
 .sub-nav li:hover {
-  background: #deeaff;
+  background: #afc9f7;
+  border-left: 1px solid ##ffbf00;
+  border-bottom: 1px solid ##ffbf00;
 }
 
 .sub-nav li a {
