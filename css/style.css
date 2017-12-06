@@ -205,6 +205,7 @@ header {
 
 .sub-nav li {
   margin-top: 10px;
+  display: block;
 }
 
 .sub-nav li:hover {
