@@ -75,7 +75,7 @@ header {
   display: inline-block;
   width: 84px;
   height: 84px;
-  background: #ffffff;
+/*  background: #ffffff;*/
   z-index: 100;
 }
 
@@ -181,7 +181,7 @@ header {
   display: none;
   color: #000000;
   background-color: #edf2f9;
-  padding-left: 30px;
+  padding-left: 26px;
   padding-right: 10px;
   position: absolute;
   width: 260px;
@@ -201,6 +201,7 @@ header {
   align-items: center;
   color: #ffffff;
   margin: 0;
+  border-radius: 0 0 5px 8px;
 }
 
 .sub-nav li {
@@ -210,8 +211,9 @@ header {
 
 .sub-nav li:hover {
   background: #afc9f7;
-  border-left: 3px solid #ffbf00;
-  border-bottom: 3px solid #ffbf00;
+  padding-left: 4px;
+  border-left: 2px solid #ffbf00;
+  border-bottom: 2px solid #ffbf00;
   border-radius: 5px;
 }
 
@@ -1340,6 +1342,7 @@ p.ism-badge a.ism-link:hover {
   margin-left: 10px;
   background: url("../img/icon.png") no-repeat right -30%;
   padding-top: 200px;
+  border-radius: 8px;
 }
 
 .about-us p {
@@ -1398,12 +1401,16 @@ p.ism-badge a.ism-link:hover {
   height: 300px;
   width: 45%;
   background-color: rgba(43, 109, 151, 0.8);
+  border-radius: 8px;
+
 }
 
 .banner {
   height: 100px;
   width: 30%;
   background-color: rgba(43, 109, 151, 0.8);
+  border-radius: 8px;
+
 }
 
 .map-block {
