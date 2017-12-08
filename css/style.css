@@ -75,7 +75,7 @@ header {
   display: inline-block;
   width: 84px;
   height: 84px;
-/*  background: #ffffff;*/
+  background: #ffffff;
   z-index: 100;
 }
 
